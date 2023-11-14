@@ -169,7 +169,7 @@ $(document).ready(function () {
             });
         });
     }
-    appendata = '<center style="margin-top: 20px !important;"><p>IPTV Smarter Player doesn\'t contain any playlist, You have to add your own playlist provided by your service provider.</p><p>Note: We don\'t store playlist or user\'s credentials. </p><a href="index.php?adduser" style=" text-decoration: none; color: white;" class="btn btn-primary"><span> + <label style="cursor: pointer;">Add Playlist</label></span></a></center>';
+    appendata = '<center style="margin-top: 20px !important;"><p>IPTV Smarter Player doesn\'t contain any playlist, You have to add your own playlist provided by your service provider.</p><p>Note: We don\'t store playlist or user\'s credentials. </p><a href="https://duibr.github.io/iptvadduser/" style=" text-decoration: none; color: white;" class="btn btn-primary"><span> + <label style="cursor: pointer;">Add Playlist</label></span></a></center>';
     if (Textb != "") {
         appendata = Textb;
     }
