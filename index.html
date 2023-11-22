@@ -1,243 +1,355 @@
-<html lang="en"><head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <!-- <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-capable" content="yes"> -->
-    <title>WebTV Player</title>
-    <link rel="shortcut icon" href="images/1638508774mediafiles.png">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!-- CSS only -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-    <script src="js/popper.min.js" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
-    <script src="js/jquery.min.js" type="text/javascript"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="js/sweetalert2.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="js/sweetalert2.all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="css/sweetalert2.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+<!DOCTYPE html><html lang="pt-br" data-bs-theme="dark"><!-- Cabeçalho --><head>
+  <meta charset="utf-8">
+  <link rel="icon" href="images/favicon.png">
+  <meta property="og:title" content="FASTMOB VPN">
+  <meta property="og:image" content="images/preview.png">
+  <meta property="og:url" content="https://sshtproject.com/">
+  <meta property="og:description" content="FASTMOB VPN é um projeto que viabiliza usar internet movél após o esgotamento do plano/saldo convencional da operadora.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="keywords" content="FASTMOB, vpn, internet, ssh, vivo, tim, claro, fluke, v2ray, TALKERA, telks, telegram, playstore, operadora, creditos, ehi, sockslite, internet vpn, sshplus, sshtplus, bughost, bugs host, internetgratis, internetmovelgratis, netgratis, netgratisvivo, vivo, net vivo, duibr da tim, duibr gratis claro, prézao hack, prehack claro, claro ssl tunnel, claro flex, claro pos controle pluslbgtqia+, duibr tech, duibr.tech">
+  <link rel="canonical" href="sshtproject.com"> <!-- adicionar a url do site aqui quando subir pra nuvem -->
+  <title>FASTMOB VPN</title>
+  <link rel="stylesheet" href="css/customcss.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.css">
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-Q2HPLXNHN0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-    <script src="js/moment-with-locales.js"></script>
+    gtag('config', 'G-Q2HPLXNHN0');
+  </script>
+</head>
 
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/front.js"></script>
-    <!-- <link rel="stylesheet" href="css/responsive.css?se=4">     -->
-    <link rel="stylesheet" href="css/newresponsive.css">    
-    <link rel="stylesheet" href="css/listuseresponsive.css">    
-    <link rel="stylesheet" href="css/loginresponsive.css">    
-    <link rel="stylesheet" href="css/dashboardresponsive.css"> 
-    <link rel="stylesheet" href="css/liveresponsive.css"> 
-    <link rel="stylesheet" href="css/movieresponsive.css"> 
-    <link rel="stylesheet" href="css/movieinforesponsive.css"> 
-    <link rel="stylesheet" href="css/searchresponsive.css"> 
-    <link rel="stylesheet" href="css/userinforesponsive.css"> 
-    <link rel="stylesheet" href="css/settingresponsive.css"> 
-    <link rel="stylesheet" href="css/popupresponsive.css"> 
-    </head><body class="attechback"><input type="hidden" id="currentthemename" value="protheme">
-    <input type="hidden" id="usernames" value="">
-    <link href="css/bootstrap-pincode-input.css" rel="stylesheet">
-    <script type="text/javascript" src="js/bootstrap-pincode-input.js"></script>
-    <style>
-    .fullscreencss{
-        position: fixed;
-        right: 4px;
-        bottom: 12px;
-        border-radius: 100%;
-        z-index: 11111111111;
-        width: 34px;
-        height: auto;
-        padding: 4px;
-        background: #ffffff;
-        border: none;
-        outline: none;
-        opacity: 0.05;
-    }
-    .fullscreencss:hover {
-        opacity: 4;
-    }
-    .fullscreencss img{
-        width: 100%;
-        border-radius: 100%;
-    }
-    </style>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-MDMD6MXFLT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!-- Inicio do Site -->
 
-  gtag('config', 'G-MDMD6MXFLT');
-</script>
-
-
-
-
-    <div id="turn">
-        <div class="rotateDlogo" style=" text-align: center; ">
-            <a class="nav-link text-light" title="IPTV Smarters-WebTV">
-                <img src="images/1638508774mediafiles.png" alt="IPTV Smarters-WebTV">
-            </a>
-       </div>
-       <div class="rotateDicon" style=" text-align: center; ">
-            <a class="nav-link text-light" title="IPTV Smarters-WebTV">
-                <img src="images/d-rotate.png" alt="IPTV Smarters-WebTV">
-            </a>
+<body class="bg-img bg-img--body-gradient">
+  <header class="fixed-top" style="backdrop-filter: blur(10px)">
+    <nav class="navbar navbar-expand-lg container">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" title="Inicio"> <!-- adicionar url -->
+          <img src="images/brand.png" alt="FASTMOB VPN" width="150" aria-hidden="true">
+          <h1 class="visually-hidden">FASTMOB VPN</h1>
+        </a>
+        <div class="d-flex gap-3">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-        <input type="button" value="Rotate Device">
-    </div>
-    
-      
-    <button type="button" class="mobiClickfull fullscreencss">
-        <img src="images/fullscreenop.gif" alt="">
-    </button>
-
-    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 hide parentallockhtml" style="position: absolute; z-index: 1111; background: rgb(0 0 0 / 85%); height: 100%; padding-top: 7%;">
-            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
-                <div class="row">
-                    <div class="col-sm-1"></div>
-                    <div class="col-sm-10 col-xs-10 col-md-10 col-lg-10">
-                        <div class="parenralconMain show parentalenterpass">
-                            <div class="genSettingHeader">
-                                <span> <img src="images/parentallock.png" style=" padding-bottom: 7px !important; "> Confirm Your - Parental Control</span>
-                            </div>
-                            <div class="parental_input parentallms show">
-                                <h3>Enter Your Password</h3>
-                                <input type="text" id="parentalpinlock">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-1"></div>
-                    <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
-                        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 parentallockbtn show">
-                            <div class="row" style=" margin-top: 25px;">
-                                <div class="col-sm-1"></div>
-                                <div class="col-sm-5 col-xs-5 col-md-5 col-lg-5">
-                                    <div class="parenntalSetSaveBtn">
-                                        <a class="closeparentelloak">
-                                            <button> VOLTAR </button>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-sm-5 col-xs-5 col-md-5 col-lg-5">
-                                    <div class="parenntalSetCloseBtn">
-                                        <a class="cofirmlock">
-                                            <button> PROXIMO </button>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-sm-1"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-            </div>
-        </div>
-
-<!-- Modal -->
-<div class="modal fade" id="seriesmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel"> Logout </h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-              Are you sure to logout?
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CLOSE</button>
-          <button type="button" class="btn log_out btn-primary">LOGOUT</button>
+        <div class="collapse navbar-collapse flex-lg-grow-0 pb-3 pb-lg-0" id="navbarNav">
+          <ul class="navbar-nav align-items-center-lg">
+            <li class="ms-lg-3 nav-item">
+              <a class="btn btn-primary d-block d-lg-inline-block" href="#comprar">Comprar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#app">Aplicativo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Telegram</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-</div>
-    <script type="text/javascript">
-    $(document).ready(function(){
-        document.onkeydown = function(e) {
-              if(event.keyCode == 123) {
-                 return false;
-              }
-              if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-                 return false;
-              }
-              if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-                 return false;
-              }
-              if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-                 return false;
-              }
-              if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-                 return false;
-              }
-            }
-
-    });
-        document.addEventListener('contextmenu', function(e) {
-        e.preventDefault();
-        });
-    </script>
-    <div class="mainBody">
-        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
-            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 listuserHeader">
-                <div class="row">
-                    <div class="col-sm-1 col-xs-1 col-md-1 col-lg-1 padding">
-                       <!--  <div class="liveInBack">
-                            <a class="nav-link text-light" href="https://duibr.github.io/iptvadduser/" title="Back">
-                                <img src="themes/protheme/images/back_arrow.png" alt="Back">
-                            </a>
-                        </div> -->
-                    </div>
-                    <div class="col-sm-2 col-xs-2 col-md-2 col-lg-2 padding" style="text-align: initial;">
-                        <div class="liveInLogo">
-                            <a class="nav-link text-light" href="https://duibr.github.io/iptvadduser/" title="IPTV WebTV">
-                                <img src="images/1638508774mediafiles.png" alt="IPTV Smarters-WebTV">
-                            </a>
-                       </div>
-                    </div>
-                    <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6 padding">
-                        <div class="listuserName text_center">
-                            <span>PLAYLISTS</span>
-                       </div>
-                    </div>
-                    <div class="col-sm-3 col-xs-3 col-md-3 col-lg-3 padding">
-                          <div class="listuserTime" style=" text-align: end; ">
-                                <a href="https://duibr.github.io/iptvadduser/" style=" text-decoration: none; color: white;">
-                                <span> <img src="images/add_more_user.png" style=" width: 8%; backdrop-filter: opacity(0.5);"> <label style="cursor: pointer;">ADICIONAR PLAYLIST</label></span></a>
-                       </div>
-                    </div>
-                </div>
-            </div>
+    </nav>
+  </header>
+  <main>
+    <section class="pt-5 bg-img bg-img--program-banner d-flex justify-content-center align-items-center flex-column" style="min-height: 70vh">
+      <div class="container py-5 h-screen" style="max-width: 700px; ">
+        <h1 class="display-1 text-center mb-0 lh-1">
+          Quer ter internet movél <span class="text-primary">ilimitada?</span>
+        </h1>
+        <p class="lead my-3 text-md-center">
+          <strong>A FASTMOB VPN oferece internet
+            <span class="text-primary">após o esgotamento do plano/saldo</span> convencional da operadora.</strong>
+        </p>
+        <div class="w-100 row gap-2 mx-auto justify-content-center">
+          <a class="btn btn-primary col-12 col-md-8" href="#comprar">COMPRAR LOGIN!</a> <!-- add link -->
+          <a class="btn btn-outline-primary col-12 col-md-8" href="#sobre">Como isso funciona?</a> <!-- add link -->
         </div>
-        <div class="col-sm-12">
-            <div class="col-sm-12">
-                <div class="row listUserDIV">
-                </div>
-            </div>
+      </div>
+    </section>
+    <section id="app" class="container d-lg-flex mt-5 mb-3 justify-content-between">
+      <div style="max-width: 700px">
+        <header>
+          <h1>Temos nosso proprio <span class="text-primary">aplicativo</span>!</h1>
+          <p class="lead">Com nosso app você sempre está atualizado com as ultimas configurações prontas para se
+            conectar em <span class="text-primary">todas as operadoras!</span></p>
+        </header>
+        <div class="row mx-auto gap-3 justify-content-around">
+          <article class="col flex-grow-1 col-lg-5 py-3 rounded-4 bg-img bg-img--card-gradient" style="min-width: 300px">
+            <header class="d-flex align-items-center gap-3">
+              <i class="bi bi-rocket-fill bg-primary bg-opacity-25 rounded-4 fs-4 d-flex justify-content-center align-items-center" style="height: 45px; width: 45px"></i>
+              <h1 class="h5 m-0 p-0 lh-1">Atualizado, sempre!</h1>
+            </header>
+            <p class="m-0 mt-2">Estamos sempre de olho nos ultimos metodos de conexão de todas as operadoras.</p>
+          </article>
+          <article class="col flex-grow-3 col-lg-5 py-3 rounded-4 bg-img bg-img--card-gradient" style="min-width: 300px">
+            <header class="d-flex align-items-center gap-3">
+              <i class="bi bi-code-slash bg-primary bg-opacity-25 rounded-4 fs-4 d-flex justify-content-center align-items-center" style="height: 45px; width: 45px"></i>
+              <h1 class="h5 m-0 p-0 lh-1">Leve</h1>
+            </header>
+            <p class="m-0 mt-2">Versão lite com menos de 3MB!</p>
+          </article>
+          <article class="col flex-grow-1 col-lg-5 py-3 rounded-4 bg-img bg-img--card-gradient" style="min-width: 300px">
+            <header class="d-flex align-items-center gap-3">
+              <i class="bi bi-broadcast-pin bg-primary bg-opacity-25 rounded-4 fs-4 d-flex justify-content-center align-items-center" style="height: 45px; width: 45px"></i>
+              <h1 class="h5 m-0 p-0 lh-1">Deseja rotear?</h1>
+            </header>
+            <p class="m-0 mt-2">Nosso app pode te auxiliar se você deseja compartilhar a internet com seu colega mesmo
+              sem ROOT!</p>
+          </article>
+          <a class="btn btn-primary rounded-5 col-12 col-md-12 fs-5" href="https://play.google.com/store/apps/details?id=com.fastmobgl">Baixar na Play Store!</a>
+          <a class="btn btn-primary rounded-5 col-12 col-md-12 fs-5" href="https://github.com/TelksBr/SSH_T_PROJECT_VPN/releases/download/4.2.6/SSH_T_PROJECT-4.2.6">Baixar o
+            APK!</a>
         </div>
-    </div>
+      </div>
+      <img loading="lazy" class="d-none d-lg-block rounded-5" src="images/app.jpeg" alt="Aplicativo" style="max-width: 500px">
+    </section>
+    <section id="comprar" class="container d-lg-flex mt-5 mb-3 justify-content-between">
+      <img loading="lazy" class="d-none d-lg-block rounded-5" src="images/bot.png" alt="Ilustração do Bot de Compras" style="max-width: 400px">
+      <div style="max-width: 800px">
+        <header>
+          <h1>Compre agora pelo nosso <span class="text-primary">bot</span>!</h1>
+          <p class="lead">Disponivel 24h no <span class="text-primary">Telegram</span>, você pode comprar o acesso como
+            preferir:</p>
+          <p class="lead">1. Basta escolher seu plano: <span class="text-primary">30</span>, <span class="text-primary">60</span> ou <span class="text-primary">90</span> dias</p>
+          <p class="lead">2. Em seguida escolher se quer para <span class="text-primary">1</span> ou <span class="text-primary">2</span> pessoas</p>
+          <p class="lead">3. E por fim pagar por <span class="text-primary">PIX</span>, após isso você automaticamente
+            recebera o seu acesso!</p>
+        </header>
+        <div class="row mx-auto gap-3 justify-content-around">
+          <article class="col flex-grow-1 col-lg-5 py-3 rounded-4 bg-img bg-img--card-gradient" style="min-width: 300px">
+            <header class="d-flex align-items-center gap-3">
+              <i class="bi bi-graph-down-arrow bg-primary bg-opacity-25 rounded-4 fs-4 d-flex justify-content-center align-items-center" style="height: 45px; width: 45px"></i>
+              <h1 class="h5 m-0 p-0 lh-1">O preço mais baixo do mercado!</h1>
+            </header>
+            <p class="m-0 mt-2">O menor preço do mercado com servidores de qualdade premium! Confira ja!
+              <br>
+              Temos teste gratuitos atravez do bot!
+            </p>
+          </article>
+          <article class="col flex-grow-1 col-lg-5 py-3 rounded-4 bg-img bg-img--card-gradient" style="min-width: 300px">
+            <header class="d-flex align-items-center gap-3">
+              <i class="bi bi-lightning-charge-fill bg-primary bg-opacity-25 rounded-4 fs-4 d-flex justify-content-center align-items-center" style="height: 45px; width: 45px"></i>
+              <h1 class="h5 m-0 p-0 lh-1">Instantâneo</h1>
+            </header>
+            <p class="m-0 mt-2">Tanto comprar, como se conectar são mais rapidos do que você pode imaginar, então tá
+              esperando o que?</p>
+          </article>
+          <article class="col flex-grow-1 col-lg-5 py-3 rounded-4 bg-img bg-img--card-gradient" style="min-width: 300px">
+            <header class="d-flex align-items-center gap-3">
+              <i class="bi bi-fire bg-primary bg-opacity-25 rounded-4 fs-4 d-flex justify-content-center align-items-center" style="height: 45px; width: 45px"></i>
+              <h1 class="h5 m-0 p-0 lh-1">Seja o diferente!</h1>
+            </header>
+            <p class="m-0 mt-2">Que tal ter internet mesmo sem ter saldo no seu chip? Com nosso projeto você pode usar
+              internet de forma ilimitada mesmo sem plano ou saldo no seu chip.</p>
+          </article>
+          <article class="col flex-grow-1 col-lg-5 py-3 rounded-4 bg-img bg-img--card-gradient" style="min-width: 300px">
+            <header class="d-flex align-items-center gap-3">
+              <i class="bi bi-cash bg-primary bg-opacity-25 rounded-4 fs-4 d-flex justify-content-center align-items-center" style="height: 45px; width: 45px"></i>
+              <h1 class="h5 m-0 p-0 lh-1">Sem grana?</h1>
+            </header>
+            <p class="m-0 mt-2">Não tem problema, nosso aplicativo conta com uma categoria totalmente gratuita e livre de anuncios esperando por voce!!</p>
+          </article>
+          <a class="btn btn-primary rounded-5 col-12 col-md-12 fs-5" href="./premium/index.html">COMPRAR LOGIN!</a>
+        </div>
+      </div>
+    </section>
+    <section class="container mb-4 text-center justify-content-between">
+      <h1>Algumas de nossas <span class="text-primary">avaliações</span> na Playstore!</h1>
+      <p class="lead">Você não será só um cliente, será parte de nossa família, se junte a nós:</p>
+    </section>
+    <section id="testimonies" class="carousel slide container">
+      <header>
+        <h1 class="visually-hidden">Valores</h1>
+      </header>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex flex-wrap gap-3 justify-content-center w-100">
+            <section class="d-none d-lg-flex justify-content-around align-items-center flex-column text-center bg-img bg-img--card-gradient--testimony p-3 rounded-5" style="max-width: 300px">
+              <header class="mb-4">
+                <h1 class="fs-6 fw-normal lh-sm">Sensacional. A Internet Grátis é Rápido, Estável e de Alta Qualidade.
+                  Pouco tempo de Uso eu Upei para o Premium. Porquê se o Grátis já é Top, Imagina o Pago. Recomendo de
+                  Olhos Fechados pessoal.</h1>
+              </header>
+              <div>
+                <img loading="lazy" class="mb-2 rounded-circle" src="images/Carolina-Castilho-2.jpg" alt="Avatar do cliente" width="100">
+                <p class="mb-0">Carolina Castilho</p>
+              </div>
+            </section>
+            <section class="text-center bg-img bg-img--card-gradient--testimony p-3 rounded-5" style="max-width: 300px">
+              <header class="mb-4">
+                <h1 class="fs-6 fw-normal lh-sm">Muito bom, funciona. Se estiver sem internet, ele te conecta. Requer um
+                  telefone razoável para funcionar, pelo menos um Moto E já funciona. E o app é relativamente leve.
+                  Parabéns aos desenvolvedores</h1>
+              </header>
+              <div>
+                <img loading="lazy" class="mb-2 rounded-circle" src="https://media.licdn.com/dms/image/C4D03AQER00Qog4xlHw/profile-displayphoto-shrink_800_800/0/1614036909194?e=2147483647&amp;v=beta&amp;t=QL5or3PeF6eDLojDQFL7Eb9555uDWrd_EEAuBORdhhc" alt="Avatar do cliente" width="100">
+                <p class="mb-0">Maria D'juda</p>
 
+              </div>
+            </section>
+            <section class="d-none d-lg-block text-center bg-img bg-img--card-gradient--testimony p-3 rounded-5" style="max-width: 300px">
+              <header class="mb-4">
+                <h1 class="fs-6 fw-normal lh-sm">Interface bem simples e bonita, gostei! Conectou rápido aqui na minha
+                  operadora roxa, se na sua não conectou, compre um roxo e seja feliz! Nota mil para esse aplicativo!
+                </h1>
+              </header>
+              <div>
+                <img loading="lazy" class="mb-2 rounded-circle" src="https://media.licdn.com/dms/image/D4D03AQH48zttlNtZuw/profile-displayphoto-shrink_800_800/0/1691100132728?e=2147483647&amp;v=beta&amp;t=eJlGjhTfijMuw7YT4s8x3zbfM48MPag_mxiLfveB_FM" alt="Avatar do cliente" width="100">
+                <p class="mb-0">Gessica</p>
 
-
- <div class="modal fade" id="confirmdeletelistuser" tabindex="-1" data-parentsec="" aria-labelledby="ListUserModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Confirmation</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Are you sure you want to delete <b id="usernamehere" style="text-decoration:underline;"></b> user?</p>
-            </div>
-            <div class="modal-footer">
-                <center>
-                    <button type="button" id="confirmdelete" data-userdelete="" class="btn btn-primary">Confirm</button>
-                    <button type="button closeconfirmmodal" class="btn btn-secondary" data-bs-dismiss="modal" aria-label="Close">Close</button>
-                </center>
-            </div>
+              </div>
+            </section>
           </div>
         </div>
-    </div></body></html>
+        <div class="carousel-item">
+          <div class="d-flex flex-wrap gap-3 justify-content-center w-100">
+            <section class="d-none d-lg-flex justify-content-around align-items-center flex-column text-center bg-img bg-img--card-gradient--testimony p-3 rounded-5" style="max-width: 300px">
+              <header class="mb-4">
+                <h1 class="fs-6 fw-normal lh-sm">Aplicativo Fenomenal Excelente Qualidade conexão sempre ativa e com uma
+                  velocidade top, Parabéns mais uma vez e muito Obrigado por nós proporcionar tanta qualidade</h1>
+              </header>
+              <div>
+                <img loading="lazy" class="mb-2 rounded-circle" src="https://media.licdn.com/dms/image/D4D03AQGIrxb65kCATQ/profile-displayphoto-shrink_800_800/0/1664238203489?e=2147483647&amp;v=beta&amp;t=x6Z2ivPsyiObg78vmvEV6p6rP9D0j-ytIJwlQJgYINE" alt="Avatar do cliente" width="100">
+                <p class="mb-0">Emerson Nob</p>
+
+              </div>
+            </section>
+            <section class="text-center bg-img bg-img--card-gradient--testimony p-3 rounded-5" style="max-width: 300px">
+              <header class="mb-4">
+                <h1 class="fs-6 fw-normal lh-sm">Obrigado vcs desenvolvedores do aps estão ajudando muita gente que não
+                  pode pagar uma internet muitos obrigado nunca nois abondene nunca desative o aps nós precisamos dele.
+                  Se conectar e sonho de todas as crianças obrigado.</h1>
+              </header>
+              <div>
+                <img loading="lazy" class="mb-2 rounded-circle" src="https://avatars.githubusercontent.com/u/86308256?v=4" alt="Avatar do cliente" width="100" style="aspect-ratio: 1/1">
+                <p class="mb-0">Pedro Manoel</p>
+
+              </div>
+            </section>
+            <section class="d-none d-lg-block text-center bg-img bg-img--card-gradient--testimony p-3 rounded-5" style="max-width: 300px">
+              <header class="mb-4">
+                <h1 class="fs-6 fw-normal lh-sm">"Não gostuei, asmei" Otimo programa, acompanho a evolução pelo
+                  telegram, e o princípio do criador e admiravel, a ssh livre é muito boa a Premium nem se fala!
+                  internet sem limites</h1>
+              </header>
+              <div>
+                <img loading="lazy" class="mb-2 rounded-circle" src="https://media.licdn.com/dms/image/C4D03AQEvw5_yCfVITg/profile-displayphoto-shrink_800_800/0/1651698777606?e=2147483647&amp;v=beta&amp;t=t8JTUVITKLYJg6rP1lUEwD0m5zVOgLb4EP_RSejtwEg" alt="Avatar do cliente" width="100">
+                <p class="mb-0">Felipe Ramalho</p>
+
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonies" data-bs-slide="prev">
+        <i class="bi bi-arrow-left-circle-fill text-primary" style="font-size: 3rem"></i>
+        <span class="visually-hidden">Voltar</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonies" data-bs-slide="next">
+        <i class="bi bi-arrow-right-circle-fill text-primary" style="font-size: 3rem"></i>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </section>
+    <section id="contato" class="container d-lg-flex mt-5 mb-5 justify-content-between">
+      <div style="max-width: 700px">
+        <header>
+          <h1>Se mantenha atualizado, entre em nosso canal no <span class="text-primary">Telegram</span>!</h1>
+          <p class="lead">Somente por aqui você ficará por dentro das ultimas novidades e atualizações sobre o nosso
+            projeto.</p>
+        </header>
+        <div class="row mx-auto gap-3 justify-content-around">
+          <article class="col flex-grow-1 col-lg-5 py-3 rounded-4 bg-img bg-img--card-gradient" style="min-width: 300px">
+            <header class="d-flex align-items-center gap-3">
+              <i class="bi bi-telegram bg-primary bg-opacity-25 rounded-4 fs-4 d-flex justify-content-center align-items-center" style="height: 45px; width: 45px"></i>
+              <h1 class="h5 m-0 p-0 lh-1">Conecte-se agora!</h1>
+            </header>
+            <p class="m-0 mt-2">🌐 Entre no Canal <strong>FASTMOB VPN</strong> no Telegram! 🚀</p>
+            <p class="m-3 mt-2">🔑 Acesso a SSH: Fique por dentro das últimas atualizações, dicas e truques relacionados
+              a <strong>SSH e V2RAY</strong> sobre todas as operadoras.</p>
+            <p class="m-3 mt-2">💡 Conteúdo Exclusivo: Receba informações exclusivas sobre projetos, tutoriais e
+              recursos relacionados ao <strong>SSH que não estão disponíveis em nenhum outro lugar</strong>.</p>
+            <p class="m-3 mt-2">🚀 Comunidade Envolvente: <strong>Faça parte de uma comunidade apaixonada por
+                SSH</strong>. Compartilhe conhecimento, faça perguntas e conecte-se com outros entusiastas.</p>
+            <p class="m-3 mt-2">📢 Notificações Instantâneas: Esteja sempre informado sobre as últimas atualizações
+              diretamente no seu dispositivo.</p>
+            <p class="m-3 mt-2">💯 Credibilidade: <strong>Somos especialistas em SSH</strong>, e nossa equipe está
+              comprometida em fornecer o melhor serviço para você.</p>
+            <p class="h6 m-0 mt-2">Não perca mais tempo! Junte-se ao <span class="text-primary">SSH T Project</span> no
+              Telegram agora mesmo e leve sua experiência com SSH para o próximo nível.</p>
+          </article>
+          <a class="btn btn-primary rounded-5 col-12 col-md-12 fs-5" href="https://t.me/ssh_t_project">ENTRAR NO
+            CANAL</a> <!-- add link -->
+          <a class="btn btn-outline-primary  rounded-5 col-12 col-md-12 fs-5" href="https://t.me/ssh_t_grupo">ENTRAR NO
+            GRUPO</a>
+          <!-- <a class="btn btn-primary rounded-5 col-12 col-md-12 fs-5" href="https://t.me/ssh_t_project">ENTRAR NO
+                CANAL</a> -->
+        </div>
+      </div>
+      <img loading="lazy" class="d-none d-lg-block rounded-5" src="images/homem_celular.jpeg" alt="Aplicativo" style="max-width: 500px; max-height: 700px">
+    </section>
+    <section id="sobre" class="pt-5 bg-img bg-img--program-banner d-flex justify-content-center align-items-center flex-column" style="min-height: 50vh">
+      <div class="container py-5 h-screen" style="max-width: 700px; ">
+        <h1 class="display-1 text-center mb-0 lh-1">Sobre nós e o <span class="text-primary">projeto SSH T</span></h1>
+        <p class="lead my-3 text-center">Um pouco de como funciona!</p>
+      </div>
+    </section>
+    <div class="container mt-5 py-2">
+      <div class="mx-auto" style="max-width: 1000px">
+        <section>
+          <h1>Como funciona?</h1>
+          <p>A <strong>Net Free / Internet Grátis</strong> é um serviço que oferecemos para permitir o acesso �&nbsp; internet
+            <strong>mesmo quando o crédito com a operadora de telefonia acaba.</strong>
+          </p>
+          <p> Para isso, utilizamos um conceito conhecido como <em>proxy</em>, que consiste em direcionar a conexão do
+            seu dispositivo através de servidores intermediários. Quando o seu crédito acaba, algumas URLs específicas
+            continuam funcionando, como as da própria operadora ou de serviços essenciais. Nós identificamos essas URLs
+            e capturamos o IP delas, utilizando-os como servidores proxy para estabelecer a conexão. Dessa forma, a
+            comunicação ocorre da seguinte maneira: seu celular se conecta ao proxy, que redireciona o tráfego para os
+            nossos servidores e, por fim, para a internet global.</p>
+          <p>Os nossos servidores desempenham um papel fundamental nesse processo, atuando como servidores da operadora,
+            recebendo a sua conexão e encaminhando-a para a rede mundial de computadores. É nessa etapa que garantimos a
+            velocidade e estabilidade da conexão para os nossos usuários.</p>
+          <p>Estamos construindo uma comunidade de pessoas apaixonadas pela conectividade universal. Se você acredita em
+            nossa missão e deseja se envolver, convidamos você a se juntar a nós. Existem várias maneiras de contribuir,
+            seja compartilhando seu conhecimento técnico, ajudando a arrecadar fundos ou promovendo conscientização
+            sobre a importância da inclusão digital.</p>
+      </section></div>
+    </div>
+    <script src="js/popper.min.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+<div>
+  <footer class="border-top py-3 mt-5">
+    <div class="container d-md-flex justify-content-between align-items-end">
+      <header>
+        <h1 class="text-muted">FASTMOB VPN</h1>
+        <p class="text-muted">© FASTMOB VPN 2021 - 2023 | Desenvolvido por: Overwax</p>
+        <div class="d-flex gap-3">
+          <a class="link-light bi bi-textarea-t" href="./termos/index.html" target="_blank" rel="noopener noreferrer"> Termos de uso</a>
+          <a class="link-light bi bi-telephone" href="https://t.me/DuiBR"> Contato</a>
+        </div>
+      </header>
+    
+      
+      <div class="mt-3 d-flex justify-content-around gap-md-3">
+        <a class="link-light" href="https://www.youtube.com" title="Youtube" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-youtube display-6"></i>
+        </a>
+        <a class="link-light" href="https://www.instagram.com/fastmobssh/" title="Instagram" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram display-6"></i>
+        </a>
+        <a class="link-light" href="https://www.facebook.com/fastmobssh" title="Facebook" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-facebook display-6"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</div>
+</main></body></html>
