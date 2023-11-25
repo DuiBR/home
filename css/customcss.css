@@ -3565,7 +3565,7 @@ progress {
 
 .text-primary {
     --bs-text-opacity: 1;
-    color: #FFFF000A !important
+    color: #FF0000 !important
 }
 
 .text-secondary {
