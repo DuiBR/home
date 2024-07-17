@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /wp-content/uploads/wpo-plugins-tables-list.json
+
+Sitemap: https://techersmart.com.br/sitemap.xml
+Sitemap: https://techersmart.com.br/sitemap.rss
